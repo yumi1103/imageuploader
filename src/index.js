@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PutObject from './s3'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <PutObject /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
