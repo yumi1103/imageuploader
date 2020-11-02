@@ -1,4 +1,5 @@
 import './App.css';
+import PutObject from './s3'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>xxx.jpg</p>
         <button className="Upload-button">アップロード</button>
       </div>
+      <PutObject />
     </div>
   );
 }
