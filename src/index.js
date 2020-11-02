@@ -8,7 +8,7 @@ import PutObject from './s3'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <PutObject />
+    {/* <PutObject /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
